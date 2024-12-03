@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padaria Deliciosa</title>
+    <style>
+        /* Estilo geral da página */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #F8E0E0; /* Fundo suave de rosa claro */
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        /* Estilo para o h1 e h2 */
+        h1, h2 {
+            color: #D97C8C; /* Tom de rosa suave */
+            background-color: #F8E0E0;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        /* Estilo para as imagens */
+        .image-gallery img {
+            width: 250px;
+            height: auto;
+            margin: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .image-gallery img:hover {
+            transform: scale(1.1);
+        }
+
+        /* Estilo para o botão (btn) */
+        .btn {
+            width: 250px;
+            height: 50px;
+            background-color: #D97C8C;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn:hover {
+            background-color: #C56D7A; /* Cor mais escura ao passar o mouse */
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <h1>Bem-vindo à Padaria Deliciosa!</h1>
+    <h2>Venha saborear nossos produtos fresquinhos!</h2>
+
+    <!-- Galeria de imagens de produtos -->
+    <div class="image-gallery">
+        <img src="https://via.placeholder.com/250x150.png?text=Pão" alt="Pão">
+        <img src="https://via.placeholder.com/250x150.png?text=Cupcake" alt="Cupcake">
+        <img src="https://via.placeholder.com/250x150.png?text=Café" alt="Café">
+    </div>
+
+    <!-- Botão de contato -->
+    <a href="mailto:padaria@exemplo.com">
+        <button class="btn">Entre em Contato</button>
+    </a>
+</body>
+</html>
